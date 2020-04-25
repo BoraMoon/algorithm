@@ -16,7 +16,7 @@ public class DynaminProgramming {
 		for(int i = 0; i<n;i++) {
 			int num = sc.nextInt();
 			for(int j=4;j<=num;j++) {
-				dp[j] = dp[j-1] + dp[j-2] + dp[j-3];
+				dp[j] = dp[j-1] + dp[j-2] + dp[j-3];	//공식
 			}
 			System.out.println(dp[num]);
 		}
